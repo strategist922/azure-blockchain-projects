@@ -10,19 +10,19 @@ To add the Blockchain as a Service Artifact Library to your Azure DevTest lab is
 
 4. In the DevTest Lab settings Add a new Artifact Repository
 
-![](https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/assets/repoadd.png)
+![](https://raw.githubusercontent.com/Azure/azure-blockchain-projects/master/baas-artifacts/assets/repoadd.png)
 
-5. Name your repository.
-6. The Git Clone URI is: `https://github.com/marleyg/MSFTLabs.git`
-7. The Folder Path is: `DevTestBaaS`
+5.	Name your repository.
+6. The Git Clone URI is: `https://github.com/Azure/azure-blockchain-projects.git`
+7. The Folder Path is: `bass-artifacts`
 8. The Branch can be blank or `master`
 9. The Personal Access Token is: `<INSERT YOUR PERSONAL ACCESS TOKEN>` *see below if you don't have one*
 
-![](https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/assets/ArtifactRepo.png)
+![](https://raw.githubusercontent.com/Azure/azure-blockchain-projects/master/baas-artifacts/assets/ArtifactRepo.png)
 
 10. Now when you can add the BaaS artifacts to your VMs on creation or by Right Clicking and existing VM and select Apply Artifact
 
- ![](https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/assets/artifactsPublic.png)
+ ![](https://raw.githubusercontent.com/Azure/azure-blockchain-projects/master/baas-artifacts/assets/artifactsPublic.png)
 
 ## Getting your GitHub personal access token for step #9 ##
 
@@ -30,22 +30,22 @@ To add the Blockchain as a Service Artifact Library to your Azure DevTest lab is
 
 2. Select your personal settings
 
-![](https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/assets/GitHubSettings.png)
+![](https://raw.githubusercontent.com/Azure/azure-blockchain-projects/master/baas-artifacts/assets/GitHubSettings.png)
 
 3. Select Personal Access Tokens
 
-![](https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/assets/GitHubPAT.png)
+![](https://raw.githubusercontent.com/Azure/azure-blockchain-projects/master/baas-artifacts/assets/GitHubPAT.png)
 
 4. Select Generate new token
 
-![](https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/assets/newPAT.png)
+![](https://raw.githubusercontent.com/Azure/azure-blockchain-projects/master/baas-artifacts/assets/newPAT.png)
 
 5. Name your token and grant Read access to public_repo
 
-![](https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/assets/PATSettings.png)
+![](https://raw.githubusercontent.com/Azure/azure-blockchain-projects/master/baas-artifacts/assets/PATSettings.png)
  
 7. Select Generate Token at the bottom
 
 8. Copy the key into your clipboard and paste for step #9.  Also, store the key somewhere if you want to use it later.
 
-![](https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/assets/PATKey.png)
+![](https://raw.githubusercontent.com/Azure/azure-blockchain-projects/master/baas-artifacts/assets/PATKey.png)

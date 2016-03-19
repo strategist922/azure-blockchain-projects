@@ -20,11 +20,11 @@ echo "vmname: $VMNAME"
 
 # Fetch Genesis and scripts
 cd $HOMEDIR
-wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-go-ethereum/lab-seed.json
-wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-go-ethereum/seed-blockchain.sh
-wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-go-ethereum/start-blockchain.sh
-wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-go-ethereum/ssh443.sh
-wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-go-ethereum/attachOne.sh
+wget https://raw.githubusercontent.com/Azure/azure-blockchain-projects/master/baas-artifacts/linux-go-ethereum/lab-seed.json
+wget https://raw.githubusercontent.com/Azure/azure-blockchain-projects/master/baas-artifacts/linux-go-ethereum/seed-blockchain.sh
+wget https://raw.githubusercontent.com/Azure/azure-blockchain-projects/master/baas-artifacts/linux-go-ethereum/start-blockchain.sh
+wget https://raw.githubusercontent.com/Azure/azure-blockchain-projects/master/baas-artifacts/linux-go-ethereum/ssh443.sh
+wget https://raw.githubusercontent.com/Azure/azure-blockchain-projects/master/baas-artifacts/linux-go-ethereum/attachOne.sh
 
 #####################
 # setup the Azure CLI

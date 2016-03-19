@@ -6,7 +6,7 @@
     "Bash",
     "Linux"
   ],
-  "iconUri": "https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-eris-blockchain/erisicon.png",
+  "iconUri": "https://raw.githubusercontent.com/Azure/azure-blockchain-projects/master/baas-artifacts/linux-eris-blockchain/erisicon.png",
   "targetOsType": "Linux",
   "parameters": {
     "adminUserName": {

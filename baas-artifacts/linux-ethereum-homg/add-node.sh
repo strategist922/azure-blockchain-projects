@@ -20,11 +20,11 @@ echo "vmname: $VMNAME"
 
 # Fetch Genesis and scripts
 cd $HOMEDIR
-wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-ethereum-homg/lab-seed.json
-wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-ethereum-homg/seed-blockchain.sh
-wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-ethereum-homg/start-blockchain.sh
-wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-ethereum-homg/ssh443.sh
-wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-ethereum-homg/attachOne.sh
+wget https://raw.githubusercontent.com/Azure/azure-blockchain-projects/master/baas-artifacts/inux-ethereum-homg/lab-seed.json
+wget https://raw.githubusercontent.com/Azure/azure-blockchain-projects/master/baas-artifacts/inux-ethereum-homg/seed-blockchain.sh
+wget https://raw.githubusercontent.com/Azure/azure-blockchain-projects/master/baas-artifacts/linux-ethereum-homg/start-blockchain.sh
+wget https://raw.githubusercontent.com/Azure/azure-blockchain-projects/master/baas-artifacts/linux-ethereum-homg/ssh443.sh
+wget https://raw.githubusercontent.com/Azure/azure-blockchain-projects/master/baas-artifacts/linux-ethereum-homg/attachOne.sh
 
 #####################
 # setup the Azure CLI

@@ -66,7 +66,7 @@ echo "Hello there! I'm the marmot that installs expanse."
 echo
 echo
 echo "Grabbing necessary dependencies"
-wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-expanse/start-expanse.sh
+wget https://raw.githubusercontent.com/Azure/azure-blockchain-projects/master/baas-artifacts/start-expanse.sh
 export DEBIAN_FRONTEND=noninteractive
 curl -sSL https://deb.nodesource.com/setup_"$NODEVERSION".x | sudo -E bash - &>/dev/null
 sudo apt-get install -y git mercurial binutils bison gcc make libgmp3-dev build-essential &>/dev/null

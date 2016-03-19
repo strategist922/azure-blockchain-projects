@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
   "title": "Go-Ethereum-Homestead",
   "description": "Add a Go Ethereum Homestead node to network in the Lab",
-  "iconUri": "https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-ethereum-homg/labArtifact.png",
+  "iconUri": "https://raw.githubusercontent.com/Azure/azure-blockchain-projects/master/baas-artifacts/linux-ethereum-homg/labArtifact.png",
   "targetOsType": "Linux",
    "parameters": {
     "adminUserName": {

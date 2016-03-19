@@ -7,7 +7,7 @@
     "Blockchain",
     "Linux"
   ],
-  "iconUri": "https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-syscoin/syscoinArtifact.png",
+  "iconUri": "https://raw.githubusercontent.com/Azure/azure-blockchain-projects/master/baas-artifacts/linux-syscoin/syscoinArtifact.png",
   "targetOsType": "Linux",
   "parameters": {
      "installMethod": {
