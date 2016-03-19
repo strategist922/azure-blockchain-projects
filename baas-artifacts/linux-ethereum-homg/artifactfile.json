@@ -1,0 +1,19 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
+  "title": "Go-Ethereum-Homestead",
+  "description": "Add a Go Ethereum Homestead node to network in the Lab",
+  "iconUri": "https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-ethereum-homg/labArtifact.png",
+  "targetOsType": "Linux",
+   "parameters": {
+    "adminUserName": {
+      "type": "string",
+      "displayName": "Admin User Account",
+      "description": "Needs to be the same account name for the host",
+      "allowEmpty": false
+    }
+  },
+   "runCommand": {
+    "commandToExecute": "[concat('sh', ' ', 'add-node.sh', ' ', parameters('adminUserName'))]"
+  }
+}
+

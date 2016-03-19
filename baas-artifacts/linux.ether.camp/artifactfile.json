@@ -1,0 +1,18 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
+    "title": "EtherCamp IDE docker container",
+    "description": "Install a EtherCamp IDE docker container on Linux",
+    "iconUri": "https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux.ether.camp/labArtifact.png",
+    "tags": [
+        "Docker",
+        "Linux",
+        "Container",
+        "ethereum",
+        "ide"
+    ],
+    "targetOsType": "Linux",
+    "parameters": { },
+    "runCommand": {
+        "commandToExecute": "sh linux_docker_ether_camp_ide.sh"
+    }
+}
